@@ -1,5 +1,12 @@
-console.log("Hello world")
-console.log("hello world")
-console.log("hello world")
+const fs = require('fs')
 
-console.log("hello world")
+
+data = {
+    "data":"djfhuhf"
+}
+
+fs.writeFile('./data.json',JSON.stringify(data),'utf-8',(err)=>{
+    if(err) throw err
+    else console.log("submitted")
+})
+
