@@ -1,0 +1,27 @@
+[
+    {
+        "VacuumCleaners": {
+            "Location": "3rd Floor, Aisle 8",
+            "Availability": "In stock",
+            "Details": [
+                { "Brand": "Dyson", "item": "DYS499VACCLE"
+                }
+            ],
+            "product": [
+                { "productTitle": "V12 Detect Slim Cordless Bagless Stick Vacuum Cleaner", "SKU": "V12CLELASILL", "quantity": 39, "price": 499
+                },
+                { "productTitle": "Slim Ball Animal Upright Vacuum Cleaner", "SKU": "349SLIUPRVAC", "quantity": 89, "price": 349
+                }
+            ],
+            "Brand": "Shark", "item": "SHA349VACCLE", "productTitle": "Pet Pro Cordless Stick Vacuum Cleaner", "SKU": "56PETCORDSTI", "quantity": 56, "price": 349
+        },
+        "Brand": "Hoover", "item": "HOV199VACCLE", "productTitle": "WindTunnel 3 Max Performance Pet Bagless Upright Vacuum Cleaner", "SKU": "WIN3MAHEPFIL", "quantity": 34, "price": 199
+    },
+    { "Brand": "iRobot", "item": "IRO349VACCLE", "product": [
+            { "productTitle": "Roomba i3+ EVO (3550) Self-Emptying Robot Vacuum – Now Clean By Room With Smart Mapping, Ideal For Pet Hair", "SKU": "ROO3550SPETH", "quantity": 100, "price": 349
+            },
+            { "productTitle": "Roomba i3 EVO (3150) Robot Vacuum - Now Clean by Room with Smart Mapping, Ideal for Pet Hair, Carpet and Hard Floor", "SKU": "3150CARHARFL", "quantity": 167, "price": 229
+            }
+        ]
+    }
+]
