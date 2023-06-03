@@ -1506,30 +1506,9 @@ var data = [{
     'brand': 'American Tourister'
 }]
 
-function convertToEnumObj(keys){
-     keys = keys.map(ele=>ele.toString().trim());
-    var arr = [... new Set(keys)].map(ele=>ele.trim());
-    console.log(arr)
-    var enums=[];
-   
-    for(var i=0;i<arr.length;i++){
-        var syn = [];
-        syn.push("\"" + arr[i]+"\"" );
-       
-        if(arr[i].split(' ').length>1){
-            syn = syn.concat(arr[i].trim().split(' '))
-        }
-       
-        if(arr[i].trim()!=='')
-            enums.push({
-                name: arr[i].trim(),
-                val: arr[i].trim(),
-                syn: syn
-            });
-    }
-
-   
-    return enums;
+data = {
+    "data":"djfhuhf",
+    "data1":"fhldhflsdjhlsdhosdlkfhlsd"
 }
 
 var enumObj = {};
